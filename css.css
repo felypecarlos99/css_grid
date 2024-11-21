@@ -16,6 +16,9 @@ header{
     justify-content: space-between;
 }
  
+    .carshop{
+        margin-right: 10px;
+    }
 
 .imgheader{
     width: 100%;
@@ -28,6 +31,8 @@ header{
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
+    right: 50px;
+    top: 165px;
 }
 
 .texto2{
@@ -35,13 +40,17 @@ header{
     font-family: "Silkscreen", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 15px;    
+    font-size: 15px;  
+    right: 40px;
+    top: 185px;  
 }
 .texto3{
     position: absolute;
     font-family: "Spicy Rice", serif;
     font-weight: 400;
     font-style: normal;
+    right: 10px;
+    top: 200px;
 }
 
 .container{
@@ -50,23 +59,106 @@ header{
 
 .container2{
     width: 100%;
-    height: 100vh;
+    height: 150px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 245px);
+    grid-template-columns: repeat(auto-fill, 1fr);
     gap: 20px;
   justify-content: center;
   margin-top: 10px;
   position: relative;
-
+  margin-bottom: 10px;
 }
 
 .imagem1{
-    width: 161px;
+    width: 181px;
     height: 120px;
     position: absolute;
     top: 13px;
     border-radius: 10px;    
-    margin-left: 10px;
+    margin-left: 2px;
+}
+
+.textoimgs{
+    font-size: 10px;
+    position: absolute;
+    right: 66px;
+}
+
+.textoimgs2{
+    font-size: 10px;
+    position: absolute;
+    right: 66px;
+    top: 15px;
+}
+
+.textoimgs3{
+    font-size: 10px;
+    position: absolute;
+    right: 64px;
+    top: 110px;
+}
+
+.textoimgs4{
+    font-size: 10px;
+    position: absolute;
+    right: 77px;
+    top: 2px;
+}
+
+.textoimgs5{
+    font-size: 10px;
+    position: absolute;
+    right: 79px;
+    top: 2px;
+}
+
+.textoimgs6{
+    font-size: 10px;
+    position: absolute;
+    right: 59px;
+    top: 15px;
+}
+
+.textoimgs7{
+    font-size: 10px;
+    position: absolute;
+    right: 55px;
+    top: 5px;
+}
+
+.textoimgs8{
+    font-size: 10px;
+    position: absolute;
+    right: 55px;
+    top: 5px;
+}
+
+.textoimgs9{
+    font-size: 10px;
+    position: absolute;
+    right: 79px;
+    top: 5px;
+}
+
+.textoimgs10{
+    font-size: 10px;
+    position: absolute;
+    right: 53px;
+    top: 15px;
+}
+
+.cifrao{
+    width: 50px;
+    position: absolute;
+    right: 60px;
+    top: 53px;
+}
+
+.cifrao1{
+    width: 50px;
+    position: absolute;
+    right: 60px;
+    top: 45px;
 }
 
 .gridItem{
@@ -77,7 +169,15 @@ header{
     margin: 0;
 }
 
-.gridItem :hover{
+.gridItem2{
+    width: 245px;
+    height: 136px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 0;
+}
+
+.gridItem .red :hover{
     background-color: blue;
 }
 
@@ -96,3 +196,25 @@ header{
     background-color: #D9D9D9;
 }
 
+.rodape{
+    width: 100%;
+    background-color: #D9D9D9;
+    height: 109px;
+}
+
+.iconecarro{
+    width: 38px;
+    position: absolute;
+    left: 160px;
+    margin-top: 10px;
+}
+
+.textorodape{
+    position: absolute;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 15px;
+    left: 85px;
+}
