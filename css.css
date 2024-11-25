@@ -69,6 +69,16 @@ header{
   margin-bottom: 10px;
 }
 
+.container3{
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+  justify-content: center;
+  position: relative;
+
+}
+
 .imagem1{
     width: 181px;
     height: 120px;
@@ -175,10 +185,9 @@ header{
     border-radius: 20px;
     padding: 5px;
     margin: 0;
-}
-
-.gridItem .red :hover{
-    background-color: blue;
+    position: absolute;
+    top: 10px;
+    left: 53px;
 }
 
 .orden1{
@@ -265,8 +274,19 @@ header{
   font-weight: 300;
   font-style: normal;
     font-style: normal;
-    font-size: 17px;
-    left: 95px;
+    font-size: 15px;
+    left: 129px;
     margin-top: 75px;
+}
+
+.textorodape2{
+    position: absolute;
+    font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+    font-style: normal;
+    font-size: 13px;
+    left: 115px;
+    margin-top: 90px;
 }
 
