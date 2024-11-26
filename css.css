@@ -5,7 +5,9 @@ body{
     overflow-x: hidden;
 }
 
-
+.containerzao{
+    grid-template-columns: repeat(auto-fill, 1fr);
+}
 
 header{
     margin: 0;
@@ -53,9 +55,6 @@ header{
     top: 200px;
 }
 
-.container{
-    width: 100%;
-}
 
 .container2{
     width: 100%;
@@ -67,16 +66,6 @@ header{
   margin-top: 10px;
   position: relative;
   margin-bottom: 10px;
-}
-
-.container3{
-    width: 100%;
-    height: 150px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 1fr);
-  justify-content: center;
-  position: relative;
-
 }
 
 .imagem1{
@@ -177,8 +166,16 @@ header{
     border-radius: 20px;
     padding: 5px;
     margin: 0;
+    transition: all 0.3s ease;
 }
 
+.gridItem:hover{
+    width: 300px;
+    height: 150px;
+    transition: all 0.5s ease;
+    background-color: black;
+    color: white;
+}
 
 .orden1{
     grid-row: 2
@@ -286,8 +283,8 @@ header{
     border-radius: 20px;
     background-color: #D9D9D9;
     position: absolute;
-    top: 267px;
-    left: 52px;
+    top: 587px;
+    left: 59px;
     opacity: 0.8;
     display: flex;
     align-items: center;
@@ -300,5 +297,49 @@ header{
   font-weight: weight;
   font-style: normal;
   color: red;
-  font-size: 50px;
+  font-size: 30px;
+}
+
+.circulo{
+    width: 37px;
+    height: 37px;
+    border-radius: 100%;
+    background-color: red;
+    position: relative;
+    position: absolute;
+    top: 570px;
+    left: 285px;
+}
+
+.circulo2{
+    width: 37px;
+    height: 37px;
+    border-radius: 100%;
+    background-color: blue;
+    position: relative;
+    position: absolute;
+    top: 410px;
+    left: 285px;
+}
+
+.circulo3{
+    width: 37px;
+    height: 37px;
+    border-radius: 100%;
+    background-color: #00F4FD;
+    position: relative;
+    position: absolute;
+    top: 255px;
+    left: 285px;
+}
+
+.textocirculo{
+    font-size: 13px;
+    margin: 5px 0 6px 6px;
+    color: white;
+}
+
+.textocirculo2{
+    font-size: 13px;
+    margin: 5px 0 6px 6px;
 }
