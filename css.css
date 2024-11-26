@@ -179,16 +179,6 @@ header{
     margin: 0;
 }
 
-.gridItem2{
-    width: 245px;
-    height: 136px;
-    border-radius: 20px;
-    padding: 5px;
-    margin: 0;
-    position: absolute;
-    top: 10px;
-    left: 53px;
-}
 
 .orden1{
     grid-row: 2
@@ -290,3 +280,25 @@ header{
     margin-top: 90px;
 }
 
+.porcima{
+    width: 245px;
+    height: 146px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 267px;
+    left: 52px;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.esgotamento{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: red;
+  font-size: 50px;
+}
