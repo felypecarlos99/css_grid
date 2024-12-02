@@ -369,32 +369,36 @@ header{
 .imagem1 {
     width: 309px;
     height: 167px;
-    position: absolute;
     border-radius: 10px;
     position: relative;
     bottom: 10px; 
     left: 12px;
-    z-index: 10;
     
 }
 
+.imagem2{
+    width: 226px;
+    height: 286px;
+    border-radius: 10px;
+    position: relative;
+    position: absolute;
+    top: 70px;
+    left: 65px;
+    z-index: 1;
+}
+
+.blue{
+    background-color: black;
+    opacity: 0;
+}
+
 .gridItem {
-    width: 300px;
     height: 167px;
     border-radius: 10px;
     position: absolute;
     top: 10px;
     left: 18px;
     transition: all 0.3s ease; 
-    z-index: 1; 
-}
-
-.gridItem:hover {
-    width: 300px;
-    height: 167px;
-    transition: all 0.5s ease;
-    background-color: #D9D9D9;
-    color: white;
 }
 
 .rodape{
@@ -411,7 +415,107 @@ header{
     position: absolute;
     top: 255px;
     left: 285px;
-    z-index: 1;
 }
+
+.cifrao{
+opacity: 0;
+}
+
+.cifrao1{
+  opacity: 0;
+}
+
+.textoimgs{
+    position: absolute;
+    font-size: 20px;
+    right: 250px;
+    top: 130px;
+    color: white;
+}
+
+.textoimgs2{
+    font-size: 20px;
+    position: absolute;
+    right: 245px;
+    top: 150px;
+    color: white;
+}
+
+.textoimgs3{
+    font-size: 20px;
+    position: absolute;
+    right: 250px;
+    top: 19px;
+    color: white;
+}
+
+.textoimgs4{
+    position: absolute;
+    font-size: 20px;
+    right: 270px;
+    top: 130px;
+    color: white;
+}
+
+.textoimgs5{
+    font-size: 15px;
+    position: absolute;
+    right: 280px;
+    top: 150px;
+    color: white;
+}
+
+.textoimgs6{
+    font-size: 15px;
+    position: absolute;
+    right: 250px;
+    top: 165px;
+    color: white;
+}
+
+.textoimgs7{
+    font-size: 20px;
+    position: absolute;
+    right: 205px;
+    top: 155px;
+    color: white;
+}
+
+.textoimgs8{
+    font-size: 10px;
+    position: absolute;
+    right: 55px;
+    top: 5px;
+}
+
+.textoimgs9{
+    font-size: 10px;
+    position: absolute;
+    right: 79px;
+    top: 5px;
+}
+
+.textoimgs10{
+    font-size: 10px;
+    position: absolute;
+    right: 53px;
+    top: 15px;
+}
+
+
+.porcima{
+    width: 309px;
+    height: 167px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    position: absolute;
+    top: 400px;
+    left: 939px;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
  }  
